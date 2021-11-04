@@ -118,8 +118,6 @@ export default {
         status: this.selectedOption.value,
       }
 
-      console.log(payload)
-
       this.addCarToStock(payload)
 
       this.formName = ''

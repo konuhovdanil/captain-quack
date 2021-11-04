@@ -13,7 +13,6 @@ export const carsModule = {
 	},
 	mutations: {
 		setCarsInStock(state, carsInStock) {
-			console.log(carsInStock, 'set')
 			state.carsInStock = carsInStock
 		}
 	},
